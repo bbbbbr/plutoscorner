@@ -1,0 +1,216 @@
+Gameboy Sound Sampler Rom
+
+--> Jump
+PlayFx(CHANNEL_1, 10, 0x65, 0x84, 0x52, 0x78, 0xC5);
+Sound mode #1
+Swp Time	6
+Swp Mode	0
+Swp Shifts	5
+Pat Duty	2
+Sound Len	4
+Env Init	5
+Env Mode	0
+Env Nb Swp	2
+Frequency	1400
+Cons Sel	1
+Out to SO1	1
+Out to SO2	1
+On/off		0
+
+--> Jump
+PlayFx(CHANNEL_1, 10, 0x65, 0x84, 0x64, 0x78, 0x85);
+Sound mode #1
+Swp Time	6
+Swp Mode	0
+Swp Shifts	5
+Pat Duty	2
+Sound Len	4
+Env Init	6 / 7
+Env Mode	0
+Env Nb Swp	4
+Frequency	1400
+Cons Sel	0
+Out to SO1	1
+Out to SO2	1
+On/off		0
+
+--> Jump alt
+PlayFx(CHANNEL_1, 10, 0x66, 0xC4, 0x63, 0x40, 0x86);
+Sound mode #1
+Swp Time	6
+Swp Mode	0
+Swp Shifts	6
+Pat Duty	3
+Sound Len	4
+Env Init	8 (or 7)
+Env Mode	0
+Env Nb Swp	3
+Frequency	1650
+Cons Sel	0
+Out to SO1	1
+Out to SO2	1
+On/off		0
+
+
+--> Moth Eat
+PlayFx(CHANNEL_1, 10, 0x7F, 0x81, 0xB1, 0xC6, 0xC7);
+Sound mode #1
+Swp Time	7
+Swp Mode	1
+Swp Shifts	7
+Pat Duty	2
+Sound Len	1
+Env Init	11
+Env Mode	0
+Env Nb Swp	1
+Frequency	1900
+Cons Sel	1
+Out to SO1	1
+Out to SO2	1
+On/off		0
+
+
+--> Moth Eat alt
+PlayFx(CHANNEL_1, 10, 0x55, 0x83, 0x36, 0x86, 0x86);
+Sound mode #1
+Swp Time	5
+Swp Mode	0
+Swp Shifts	5
+Pat Duty	2
+Sound Len	3
+Env Init	3
+Env Mode	0
+Env Nb Swp	6
+Frequency	1670
+Cons Sel	0
+Out to SO1	1
+Out to SO2	1
+On/off		0
+
+
+(Die Sound)
+// PlayFx(CHANNEL_1, 20, 0x4D, 0x94, 0x96, 0x1D, 0x87);
+PlayFx(CHANNEL_1, 20, 0x4D, 0x94, 0x96, 0x26, 0x87);
+Sound mode #1
+Swp Time	4
+Swp Mode	1
+Swp Shifts	5
+Pat Duty	2
+Sound Len	20
+Env Init	9
+Env Mode	0
+Env Nb Swp	6
+Frequency	1830 //1821
+Cons Sel	0
+Out to SO1	1
+Out to SO2	1
+On/off		0
+
+(Die Sound)
+PlayFx(CHANNEL_1, 20, 0x5D, 0x94, 0x64, 0xC6, 0xC7);
+Sound mode #1
+Swp Time	5
+Swp Mode	1
+Swp Shifts	5
+Pat Duty	2
+Sound Len	20
+Env Init	6
+Env Mode	0
+Env Nb Swp	1
+Frequency	1990
+Cons Sel	1
+Out to SO1	1
+Out to SO2	1
+On/off		0
+
+
+** Level End
+PlayFx(CHANNEL_1, 20, 0x76, 0x8A, 0xA6, 0x7D, 0x86);
+Sound mode #1
+Swp Time	7
+Swp Mode	0
+Swp Shifts	6
+Pat Duty	2
+Sound Len	10
+Env Init	10
+Env Mode	0
+Env Nb Swp	6
+Frequency	1661
+Cons Sel	0
+Out to SO1	1
+Out to SO2	1
+On/off		0
+
+
+
+** Matchy/Player hit / 4
+PlayFx(CHANNEL_1, 20, 0x3F, 0x4A, 0x67, 0x46, 0xC7);
+Sound mode #1
+Swp Time	3
+Swp Mode	1
+Swp Shifts	7
+Pat Duty	3
+Sound Len	10
+Env Init	6
+Env Mode	0
+Env Nb Swp	7
+Frequency	1862
+Cons Sel	1
+Out to SO1	1
+Out to SO2	1
+On/off		0
+
+
+** Matchy/Player hit / 4
+PlayFx(CHANNEL_1, 20, 0x7F, 0xCA, 0x5F, 0x56, 0xC7);
+Sound mode #1
+Swp Time	7
+Swp Mode	1
+Swp Shifts	7
+Pat Duty	3
+Sound Len	10
+Env Init	5
+Env Mode	1
+Env Nb Swp	7
+Frequency	1862
+Cons Sel	1
+Out to SO1	1
+Out to SO2	1
+On/off		0
+
+** Matchy/Player hit / 4
+PlayFx(CHANNEL_4, 10, 0x3F, 0xAB, 0x62, 0xC0);
+Sound Mode #4
+Sound Len	63
+Env Init	10
+Env Mode	1
+Env Nb Step	3
+Poly Cnt Frq	4
+Poly Cnt Step	0
+Poly Cnt Div	2
+Cons Sel	1
+Out to SO1	1
+Out to SO2	1
+On/off		0
+
+
+
+
+
+
+
+(Useful?)
+Sound Mode #4
+Sound Len	63
+Env Init	15
+Env Mode	0
+Env Nb Step	1
+Poly Cnt Frq	3
+Poly Cnt Step	0
+Poly Cnt Div	1
+Cons Sel	1
+Out to SO1	1
+Out to SO2	1
+On/off		0
+
+
