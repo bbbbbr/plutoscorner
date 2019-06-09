@@ -19,3 +19,6 @@ Tools used
  * OpenMPT - https://openmpt.org/
  * GBT Player - https://github.com/AntonioND/gbt-player
  * GIMP TileMap - https://github.com/bbbbbr/gimp-tilemap
+
+To compile this with ZGB you'll want to use this forked version with some changes:
+https://github.com/bbbbbr/ZGB/tree/b33106ff2fc66d9abbaa8ed7c7f880586d16d600
